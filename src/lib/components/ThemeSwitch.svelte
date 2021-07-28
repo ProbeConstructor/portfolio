@@ -51,13 +51,14 @@
 		box-sizing: border-box;
 	}
 	.background {
+		/* background: linear-gradient(250deg, rgb(50, 50, 255), rgb(150, 150, 250)); */
 		display: flex;
 		height: 100%;
 		justify-content: center;
 		align-items: center;
 	}
 	.switch {
-		width: 60px;
+		width: 50px;
 		height: 32px;
 		background-color: var(--tertiary-color);
 		display: flex;

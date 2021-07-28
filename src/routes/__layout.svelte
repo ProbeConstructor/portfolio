@@ -1,13 +1,13 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
-
+	import { base } from '$app/paths';
 	import { theme } from '$lib/stores/stores';
 </script>
 
 <svelte:head>
 	<meta name="color-scheme" content={$theme == 'system' ? 'light dark' : $theme} />
-	<link rel="stylesheet" href={`/theme/${$theme}.css`} />
+	<link rel="stylesheet" href={`${base}/theme/${$theme}.css`} />
 </svelte:head>
 
 <div id="header">
