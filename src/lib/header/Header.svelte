@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
+	import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
 </script>
 
 <header>
@@ -16,6 +17,9 @@
 				<a sveltekit:prefetch href="{base}/#test">Test</a>
 			</li>
 		</ul>
+		<div class="themeSwitch">
+			<ThemeSwitch />
+		</div>
 	</nav>
 </header>
 
@@ -81,5 +85,9 @@
 
 	a:hover {
 		color: var(--secondary-accent);
+	}
+
+	.themeSwitch{
+		padding-right: 10px;
 	}
 </style>

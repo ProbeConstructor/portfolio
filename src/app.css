@@ -3,15 +3,6 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--primary-color: rgb(177, 182, 255);
-	--secondary-color: #383a59;
-	--tertiary-color: #282a36;
-	--accent-color: #50fa7b;
-	--secondary-accent: #8be9fd;
-	--tertiary-accent: #ffb86c;
-	--heading-color: rgba(0, 0, 0, 0.7);
-	--text-color: #444444;
-	--background-header: rgba(255, 255, 255, 0.4);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	--background-gradient: linear-gradient(
@@ -77,6 +68,8 @@ h1 {
 	font-size: 2rem;
 	margin-bottom: 0 0 1em 0;
 	text-align: center;
+	color: var(--text-color);
+	border: 1px;
 }
 
 h2 {
