@@ -11,6 +11,7 @@
 		theme.subscribe((current) => {
 			localStorage.setItem('theme', JSON.stringify(current));
 		});
+
 		if ($theme == 'light') {
 			isOn = true;
 		}

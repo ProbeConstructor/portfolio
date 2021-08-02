@@ -15,7 +15,7 @@
 		"@sveltejs/adapter-node": "^1.0.0-next.0",
 		"@sveltejs/adapter-static": "^1.0.0-next.13",
 		"@sveltejs/kit": "next",
-		"@types/cookie": "^0.4.0",
+		"@swiper/core": "^0.0.21",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
 		"eslint": "^7.22.0",
@@ -27,9 +27,12 @@
 		"svelte": "^3.34.0",
 		"svelte-check": "^2.0.0",
 		"svelte-motion": "^0.11.2",
-		"svelte-preprocess": "^4.0.0",
+		"svelte-preprocess": "^4.7.4",
 		"tslib": "^2.0.0",
 		"typescript": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"swiper": "^6.8.0"
+	}
 }

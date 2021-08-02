@@ -1,8 +1,9 @@
 <script context="module" lang="ts">
 	export const prerender = true;
-</script>
 
-<script lang="ts">
+	import YouTube from '../lib/components/Youtube.svelte';
+
+	import Swiper from '../lib/components/Swiper.svelte';
 </script>
 
 <svelte:head>
@@ -20,13 +21,16 @@
 	</div>
 </section>
 <section id="test">
-	<div>
-		<h1>I AM TESTING</h1>
+	<div style="width: 85vw;">
+		<h1>MOBILE FIRST</h1>
+		<div style="padding: 20vh 0vw;">
+			<Swiper />
+		</div>
 	</div>
 </section>
 <section>
-	<div>
-		<h1>I AM TESTING</h1>
+	<div class="video">
+		<YouTube videoId="i_jaBBd3Z4w" height="390" width="100%" />
 	</div>
 </section>
 
@@ -38,16 +42,13 @@
 		align-items: center;
 		flex: 1;
 	}
-	section div {
-		padding-top: 20vh;
-	}
 
 	#test {
 		border-radius: 20px;
 		background-color: var(--secondary-color);
+		width: 90vw;
 	}
-
-	h1 {
-		height: 100vh;
+	.video {
+		padding: 10vh 0vw;
 	}
 </style>

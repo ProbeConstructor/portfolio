@@ -27,6 +27,8 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		background: var(--background-header);
+		backdrop-filter: blur(5px);
 	}
 
 	.icon {
@@ -34,7 +36,6 @@
 		align-items: center;
 		justify-content: center;
 		height: 100%;
-		background: var(--background-header);
 	}
 
 	.icon img {
@@ -47,7 +48,6 @@
 		display: flex;
 		justify-content: center;
 		width: 100%;
-		background: var(--background-header);
 	}
 
 	ul {
@@ -60,8 +60,6 @@
 		align-items: center;
 		list-style: none;
 		width: 100%;
-		background: var(--background);
-		background-size: contain;
 	}
 
 	li {
@@ -87,7 +85,7 @@
 		color: var(--secondary-accent);
 	}
 
-	.themeSwitch{
+	.themeSwitch {
 		padding-right: 10px;
 	}
 </style>

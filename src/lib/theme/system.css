@@ -3,12 +3,12 @@
 		--primary-color: rgb(255, 255, 255);
 		--secondary-color: #9fa1d1;
 		--tertiary-color: #686f97;
-		--accent-color: #55ff7f;
-		--secondary-accent: #8be9fd;
+		--accent-color: #8be9fd;
+		--secondary-accent: #3c405a;
 		--tertiary-accent: #ffb86c;
 		--heading-color: rgba(0, 0, 0, 0.7);
 		--text-color: #141414;
-		--background-header: rgba(255, 255, 255, 0.4);
+		--background-header: rgba(110, 110, 110, 0.4);
 	}
 }
 

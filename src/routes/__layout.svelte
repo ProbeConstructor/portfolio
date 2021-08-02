@@ -12,6 +12,7 @@
 
 <div id="header">
 	<Header />
+	<div id="border" />
 </div>
 
 <main>
@@ -27,7 +28,6 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 1024px;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
@@ -35,6 +35,18 @@
 	#header {
 		position: fixed;
 		width: 100%;
+		z-index: 2;
+	}
+
+	#border {
+		position: absolute;
+		top: 100%;
+		z-index: -9;
+		display: block;
+		height: 1%;
+		width: 100%;
+		overflow: hidden;
+		background: var(--accent-color);
 	}
 
 	footer {
@@ -43,11 +55,5 @@
 		justify-content: center;
 		align-items: center;
 		padding: 40px;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
 	}
 </style>
